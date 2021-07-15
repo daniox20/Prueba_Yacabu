@@ -158,7 +158,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  padding: 0;
+  padding-bottom: 50px;
+	padding-right: 40px;
   width: 37px;
   height: 42px;
   -webkit-transition: all .3s;
@@ -169,7 +170,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: #c9a155;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -185,7 +186,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #c9a155;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -256,8 +257,13 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 275px;
+  width: 750px;
 }
+
+@media screen and (min-width: 200px) and (max-width: 500px) { .slider_section .img-box img {
+  width: 500px;
+	padding-top: 20px;
+} }
 
 .slider_section .detail-box {
   padding-left: 45px;
@@ -271,21 +277,20 @@ a:focus {
 }
 
 .slider_section .detail-box a {
-  display: inline-block;
-  padding: 10px 40px;
-  background-color: #db4566;
-  color: #ffffff;
-  border: 1px solid #db4566;
-  border-radius: 5px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  margin-top: 25px;
-  text-transform: uppercase;
-}
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #c9a155;
+    color: #ffffff;
+    border: 1px solid #c9a155;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 25px;
+	text-transform: uppercase;}
 
 .slider_section .detail-box a:hover {
-  background-color: transparent;
-  color: #db4566;
+  background-color: #2a4a51;
+  color: #c9a155;
 }
 
 .slider_section .carousel_btn-box {
