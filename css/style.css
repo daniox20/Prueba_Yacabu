@@ -483,109 +483,12 @@ a:focus {
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
+	border-radius: 5px;
 }
 
 .saving_section .detail-box .btn-box .btn2:hover {
   background-color: transparent;
   color: #ffffff;
-}
-
-.why_section .box {
-  text-align: center;
-  margin-top: 45px;
-  background-color: #f9f8f7;
-  padding: 25px;
-  border-radius: 5px;
-}
-
-.why_section .box .img-box {
-  margin-bottom: 15px;
-}
-
-.why_section .box .img-box svg {
-  width: 55px;
-  height: auto;
-  fill: #320b57;
-}
-
-.gift_section {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.gift_section .box {
-  background-color: #c9a155;
-  border-radius: 15px;
-  color: #ffffff;
-}
-
-.gift_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.gift_section .img-box {
-  padding: 60px 0 60px 25px;
-}
-
-.gift_section .img-box img {
-  width: 100%;
-}
-
-.gift_section .detail-box {
-  padding: 0 25px;
-}
-
-.gift_section .detail-box p {
-  margin-top: 5px;
-}
-
-.gift_section .detail-box .btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 35px -5px 0;
-}
-
-.gift_section .detail-box .btn-box a {
-  width: 165px;
-  text-align: center;
-  margin: 5px;
-}
-
-.gift_section .detail-box .btn-box .btn1 {
-  display: inline-block;
-  padding: 10px 0;
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #ffffff;
-  border-radius: 0;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.gift_section .detail-box .btn-box .btn1:hover {
-  background-color: transparent;
-  color: #ffffff;
-}
-
-.gift_section .detail-box .btn-box .btn2 {
-  display: inline-block;
-  padding: 10px 0;
-  background-color: #9242dd;
-  color: #ffffff;
-  border: 1px solid #9242dd;
-  border-radius: 0;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.gift_section .detail-box .btn-box .btn2:hover {
-  background-color: transparent;
-  color: #9242dd;
 }
 
 .contact_section {
@@ -646,20 +549,20 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #db4f66;
+  background-color: #c9a155;
   color: #ffffff;
-  border: 1px solid #db4f66;
+  border: 1px solid #c9a155;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  display: block;
-  color: #fff;
   margin: 35px auto 0 auto;
+	border-radius: 5px;
 }
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #db4f66;
+  color: #c9a155;
+  color: #c9a155;
 }
 
 .contact_section .map_container {
