@@ -261,8 +261,8 @@ a:focus {
 }
 
 @media screen and (min-width: 200px) and (max-width: 500px) { .slider_section .img-box img {
-  width: 500px;
-	height: 567px;
+  width: auto;
+	
 	padding-top: 20px;
 } }
 
