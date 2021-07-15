@@ -235,7 +235,7 @@ a:focus {
 /*end header section*/
 .slider_section .slider_container {
   color: #fefefe;
-  background-color: #000000;
+  background-color: #c9a155;
   background-image: url("../images/bg_hero.png");
   border-radius: 0 0 15px 15px;
 }
@@ -405,9 +405,9 @@ a:focus {
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #f16179;
+  background-color: #2a4a51;
   color: #ffffff;
-  border: 1px solid #f16179;
+  border: 1px solid #2a4a51;
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -415,7 +415,7 @@ a:focus {
 
 .shop_section .btn-box a:hover {
   background-color: transparent;
-  color: #f16179;
+  color: #c9a155;
 }
 
 .saving_section {
@@ -424,8 +424,7 @@ a:focus {
 }
 
 .saving_section .box {
-  padding-top: 45px;
-  background-color: #7fd7eb;
+  background-color: #c9a155;
   color: #ffffff;
   border-radius: 15px;
 }
@@ -458,7 +457,7 @@ a:focus {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 35px -5px 0;
+  margin: 0px -5px 0;
 }
 
 .saving_section .detail-box .btn-box a {
@@ -523,7 +522,7 @@ a:focus {
 }
 
 .gift_section .box {
-  background-color: #6929a5;
+  background-color: #c9a155;
   border-radius: 15px;
   color: #ffffff;
 }
