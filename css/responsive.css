@@ -1,7 +1,20 @@
+@media (min-width: 1120px) and (max-width: 1400px) {
+  
+	.slider_section .slider_container {
+  color: #fefefe;
+  background-color: #c9a155;
+  background-image: url("../images/bg_hero_tablet.png");
+		width: 100%;
+  border-radius: 0 0 15px 15px;
+		overflow: hidden;
+}
+}
+
 @media (max-width: 1120px) {
     .saving_section .detail-box {
         padding: 0;
     }
+
 }
 
 @media (max-width: 992px) {
@@ -99,6 +112,12 @@
     .info_section {
         margin: 0 25px 25px;
     }
+	.slider_section .img-box img {
+  width: auto;
+	height: 500px;
+  padding-top: 20px;
+	
+}
 
 
 }
