@@ -16,6 +16,11 @@
 <!-- slider stylesheet -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
+	<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
 <!-- bootstrap core css -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
@@ -23,13 +28,17 @@
 <link href="css/style.css" rel="stylesheet" />
 <!-- responsive style -->
 <link href="css/responsive.css" rel="stylesheet" />
+	<!-- w3 style -->
+<link href="css/w3.css" rel="stylesheet" />
+	<!-- aos style -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 <div class="hero_area"> 
   <!-- header section strats -->
-  <header class="header_section animated">
-    <nav class="navbar navbar-expand-lg custom_nav-container "> <a class="navbar-brand" href="index.html"> <span> <img src="images/logo_head.jpg"
+  <header class="header_section">
+    <nav class="navbar navbar-expand-lg custom_nav-container w3-animate-top"> <a class="navbar-brand" href="index.html"> <span> <img src="images/logo_head.jpg"
      alt="Logotipo La Criolla" width="225" height="" /> </span> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class=""></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -69,7 +78,7 @@
           </div>
         </div>-->
   
-  <section class="slider_section">
+  <section class="slider_section w3-animate-bottom">
     <div class="slider_container">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -80,7 +89,7 @@
                   <div class="detail-box">
                     <h1 style="color: #c9a155">
                       <p>Tenemos todo en Whisky<br>
-                        <b style="color: #2a4a51">Nacionales e Importados</b></p>
+                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
                     </h1>
                     <a href=""> Contactanos </a> </div>
                 </div>
@@ -97,7 +106,7 @@
                   <div class="detail-box">
                     <h1 style="color: #c9a155">
                       <p >Lo mejor en<br>
-                        <b style="color: #2a4a51">Bebidas Espirituosas</b></p>
+                        <span style="color: #2a4a51">Bebidas Espirituosas</span></p>
                     </h1>
                     <a href=""> Contactanos </a> </div>
                 </div>
@@ -114,7 +123,7 @@
                   <div class="detail-box">
                     <h1 style="color: #c9a155">
                       <p >Bienvenidos<br>
-                        <b style="color: #2a4a51">Distribuidora La Criolla</b></p>
+                        <span style="color: #2a4a51">Distribuidora La Criolla</span></p>
                     </h1>
                     <a href=""> Contactanos </a> </div>
                 </div>
@@ -136,7 +145,7 @@
 
 <!-- shop section -->
 
-<section class="shop_section layout_padding">
+<section class="shop_section layout_padding" data-aos="fade-down-left">
   <div class="container">
     <div class="heading_container heading_center">
       <h2> Nuevos Productos </h2>
@@ -147,7 +156,7 @@
           <div class="img-box"> <img src="images/p1.png" alt=""> </div>
           <div class="detail-box">
             <h6> Jägermeifter </h6>
-            <h6> Precio <span> $200 </span> </h6>
+            <h6> Precio <br> <span> $200 </span> </h6>
           </div>
           <div class="new"> <span> New </span> </div>
           </a> </div>
@@ -156,8 +165,8 @@
         <div class="box"> <a href="">
           <div class="img-box"> <img src="images/p2.png" alt=""> </div>
           <div class="detail-box">
-            <h6> Watch </h6>
-            <h6> Price <span> $300 </span> </h6>
+            <h6> Gin Bombay <br> Sapphire </h6>
+            <h6> Precio  <span> $300 </span> </h6>
           </div>
           <div class="new"> <span> New </span> </div>
           </a> </div>
@@ -166,8 +175,8 @@
         <div class="box"> <a href="">
           <div class="img-box"> <img src="images/p3.png" alt=""> </div>
           <div class="detail-box">
-            <h6> Teddy Bear </h6>
-            <h6> Price <span> $110 </span> </h6>
+            <h6> Ron Captain Morgan 750ml </h6>
+            <h6> Precio <span> $110 </span> </h6>
           </div>
           <div class="new"> <span> New </span> </div>
           </a> </div>
@@ -176,7 +185,7 @@
         <div class="box"> <a href="">
           <div class="img-box"> <img src="images/p4.png" alt=""> </div>
           <div class="detail-box">
-            <h6> Flower Bouquet </h6>
+            <h6> Fernet Branca 750ml </h6>
             <h6> Price <span> $45 </span> </h6>
           </div>
           <div class="new"> <span> New </span> </div>
@@ -231,7 +240,7 @@
 
 <!-- saving section -->
 
-<section class="saving_section">
+<section class="saving_section" data-aos="flip-up">
   <div class="box">
     <div class="container-fluid" >
       <div class="row">
@@ -242,8 +251,8 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2 style="color: #fff; font-size: 3.5em;">
-                      <p><b>Las mejores cervezas</b><br>
-                        <b style="color: #2a4a51">Nacionales e Importados</b></p>
+                      <p>Las mejores cervezas<br>
+                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
                     </h2>
 				
             </div>
@@ -259,37 +268,70 @@
 </section>
 
 <!-- end saving section --> 
+	
+	<!-- saving section -->
 
-
-
-<!-- gift section -->
-
-<section class="gift_section layout_padding-bottom">
-  <div class="box ">
-    <div class="container-fluid">
+<section class="saving_section" data-aos="flip-up">
+  <div class="box">
+    <div class="container-fluid" >
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-lg-6">
 			<div class="detail-box">
             <div class="heading_container">
-              <h2> Gifts for your <br>
-                loved ones </h2>
+              <h2 style="color: #fff; font-size: 3.5em;">
+                      <p>Las mejores cervezas<br>
+                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
+                    </h2>
+				
             </div>
-            <p> Omnis ex nam laudantium odit illum harum, excepturi accusamus at corrupti, velit blanditiis unde perspiciatis, vitae minus culpa? Beatae at aut consequuntur porro adipisci aliquam eaque iste ducimus expedita accusantium? </p>
-            <div class="btn-box"> <a href="#" class="btn1"> Buy Now </a> <a href="#" class="btn2"> See More </a> </div>
+            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
+            
           </div>
           
         </div>
-        <div class="col-md-5">
-          <div class="img_container">
-            <div class="img-box"> <img src="images/gifts.png" alt=""> </div>
+        <div class="col-lg-6">
+          <div class="img-box" style="padding:0px;"> <img src="images/cervezas_section_img.png" alt="cervezas"  > </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<br>
+	<br>
+</section>
+
+<!-- end saving section --> 
+	<section class="saving_section" data-aos="flip-up">
+  <div class="box">
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-lg-6" style="padding:0px;">
+          <div class="img-box" style="padding:0px;"> <img src="images/cervezas_section_img.png" alt="cervezas"  > </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 style="color: #fff; font-size: 3.5em;">
+                      <p>Las mejores cervezas<br>
+                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
+                    </h2>
+				
+            </div>
+            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
+            
           </div>
         </div>
       </div>
     </div>
   </div>
+	<br>
+	<br>
 </section>
 
-<!-- end gift section --> 
+<!-- end saving section -->
+
+
+
+
 
 <!-- contact section -->
 
@@ -389,6 +431,11 @@
 <script src="js/bootstrap.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script> 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/custom.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
 </body>
 </html>

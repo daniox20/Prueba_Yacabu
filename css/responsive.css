@@ -108,6 +108,11 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+	.slider_section .img-box img {
+  width: auto;
+	height: 500px;
+  padding-top: 20px;
+}
 }
 
 @media (max-width: 480px) {
