@@ -154,10 +154,11 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  padding-bottom: 50px;
-	padding-right: 40px;
-  width: 37px;
-  height: 42px;
+	margin: auto;
+	width: 25% !important;
+	margin-top: 15px;
+  height: 50px;
+	background-color: #294a51;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
