@@ -66,18 +66,14 @@ body {
   height: auto;
 }
 
-
-
 #navbarSupportedContent {
- margin: auto;
-  width: 80%;
+  width: 100%;
   background-color: #2a4a51;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 0;
-	margin-top: 15px;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 #navbarSupportedContent.innerpage_navbar {
@@ -123,10 +119,17 @@ a:focus {
 }
 
 .navbar-brand {
-  display: flex;
-  justify-content: center !important;
-  align-items: center;
-  padding: 0 30px 0 30px;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.navbar-brand span {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -139,7 +142,8 @@ a:focus {
   padding: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-     
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -154,17 +158,16 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-	margin: auto;
-	width: 25% !important;
-	margin-top: 15px;
-  height: 50px;
-	background-color: #294a51;
+  padding-bottom: 50px;
+	padding-right: 40px;
+  width: 37px;
+  height: 42px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .custom_nav-container .navbar-toggler span {
-  display: flex;
+  display: block;
   width: 35px;
   height: 4px;
   background-color: #c9a155;
@@ -228,7 +231,6 @@ a:focus {
 
 /*end header section*/
 .slider_section .slider_container {
-
   color: #fefefe;
   background-color: #c9a155;
   background-image: url("../images/bg_hero.png");

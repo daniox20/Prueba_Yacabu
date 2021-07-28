@@ -4173,7 +4173,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 0rem;
+  margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -4213,13 +4213,13 @@ input[type="button"].btn-block {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   -ms-flex-positive: 1;
-  flex-grow: 0;
+  flex-grow: 1;
   -ms-flex-align: center;
-  justify-content: center;
+  align-items: center;
 }
 
 .navbar-toggler {
-  padding: 0.25rem 1.80rem;
+  padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
