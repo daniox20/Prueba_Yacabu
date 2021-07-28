@@ -77,6 +77,7 @@ body {
           justify-content: center;
   padding: 10px 0;
 	margin-top: 15px;
+	margin-bottom: 15px;
   border-radius: 15px 15px 15px 15px;
 }
 
@@ -638,6 +639,7 @@ a:focus {
   position: relative;
   background-color: #2a4a51;
   color: #ffffff;
+	border-radius: 15px;
   margin: 0 45px 45px;
 }
 
