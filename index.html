@@ -31,10 +31,16 @@
 <link href="css/responsive.css" rel="stylesheet" />
 	<!-- w3 style -->
 <link href="css/w3.css" rel="stylesheet" />
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+	
+
+
 	
 </head>
 
 <body>
+	<div id="WAButton" style="z-index: 1 !important;"></div>
 	 <div class="navbar-brand w3-animate-top ">
 	<a href="index.html"> <img src="images/logo_head.jpg"
      alt="Logotipo La Criolla" width="200" height="" /></a>
@@ -425,11 +431,16 @@
 <!-- end info section --> 
 
 <script src="js/jquery-3.4.1.min.js"></script> 
+	
 <script src="js/bootstrap.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script> 
 <script src="js/custom.js"></script>
 	<script src="js/aos.js"></script>
+	<!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
  <script>
  AOS.init({
   // Global settings:
@@ -455,7 +466,24 @@
 });
  </script>
 	<script>
+	$(function() {
+  $('#WAButton').floatingWhatsApp({
+    phone: '+59898000699', //WhatsApp Business phone number International format-
+    //
+    headerTitle: 'Chatea con nosotros en WhatsApp!', //Popup Title
+    popupMessage: 'Hola! En que podemos ayudarte?', //Popup Message
+    showPopup: true, //Enables popup display
+    buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+    //headerColor: 'crimson', //Custom header color
+    //backgroundColor: 'crimson', //Custom background button color
+    position: "right"    
+  });
+});
+	 </script>
+	<script>
 	AOS.refreshHard();
 	 </script>
+	
+	
 </body>
 </html>
