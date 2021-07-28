@@ -17,7 +17,7 @@ body {
 }
 
 .layout_padding2-top {
-  padding-top: 45px;
+  padding-top: 5px;
 }
 
 .layout_padding2-bottom {
@@ -66,14 +66,18 @@ body {
   height: auto;
 }
 
+
+
 #navbarSupportedContent {
-  width: 100%;
+ margin: auto;
+  width: 80%;
   background-color: #2a4a51;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px 0;
-  border-radius: 15px 15px 0 0;
+	margin-top: 15px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 #navbarSupportedContent.innerpage_navbar {
@@ -108,7 +112,7 @@ a:focus {
 
 a:hover,
 a:focus {
-  color: initial;
+  color: #c9a155;
 }
 
 .btn,
@@ -119,17 +123,10 @@ a:focus {
 }
 
 .navbar-brand {
-  margin: 15px 0;
-  padding: 0;
-}
-
-.navbar-brand span {
-  font-size: 28px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  padding: 0 30px 0 30px;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -142,8 +139,7 @@ a:focus {
   padding: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+     
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -158,16 +154,17 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  padding-bottom: 50px;
-	padding-right: 40px;
-  width: 37px;
-  height: 42px;
+	margin: auto;
+	width: 25% !important;
+	margin-top: 15px;
+  height: 50px;
+	background-color: #294a51;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .custom_nav-container .navbar-toggler span {
-  display: block;
+  display: flex;
   width: 35px;
   height: 4px;
   background-color: #c9a155;
@@ -234,7 +231,8 @@ a:focus {
   color: #fefefe;
   background-color: #c9a155;
   background-image: url("../images/bg_hero.png");
-  border-radius: 0 0 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+	margin: 0 3% 0 3%;
 }
 
 .slider_section .row {
@@ -667,6 +665,26 @@ a:focus {
   margin: 0 10px;
   color: #ffffff;
   font-size: 24px;
+}
+
+.info_section .social_container .social-title {
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+	
+}
+
+.info_section .social_container .social-title h1 {
+ font-weight: 600;
+	font-size: 25PX;
+	
+	
 }
 
 .info_section .info_form form input {
