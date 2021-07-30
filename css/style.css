@@ -648,7 +648,6 @@ a:focus {
 .contact_section button:hover {
   background-color: transparent;
   color: #c9a155;
-  color: #c9a155;
 }
 
 .contact_section .map_container {
@@ -659,6 +658,54 @@ a:focus {
 .contact_section .map_container .map-responsive {
   height: 100%;
 }
+
+.us_section {
+  position: relative;
+}
+
+.us_section .container-bg {
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.us_section .heading_container {
+	width: 100%;
+  margin-bottom: 30px;
+}
+
+.us_section .row {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.us_section .row div p{
+font-size: 18px;
+justify-content: center;
+}
+
+
+.us_section button {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #c9a155;
+  color: #ffffff;
+  border: 1px solid #c9a155;
+  border-radius: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 35px auto 0 auto;
+	border-radius: 5px;
+}
+
+.us_section button:hover {
+  background-color: transparent;
+  color: #c9a155;
+  color: #c9a155;
+}
+
+
+
 
 .client_section .heading_container {
   margin-bottom: 20px;
