@@ -1,14 +1,26 @@
-@media (min-width: 1120px) and (max-width: 1400px) {
+@media (min-width: 375px) and (max-width: 768px) {
+  
+	.slider_section_cervezas .slider_container_cervezas {
+  color: #fefefe;
+  background-color: #c9a155;
+  background-image: url("../images/bg_hero_tablet.png");
+  border-radius: 0 0 15px 15px;
+		overflow: hidden;
+}
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
   
 	.slider_section .slider_container {
   color: #fefefe;
   background-color: #c9a155;
   background-image: url("../images/bg_hero_tablet.png");
-		width: 100%;
   border-radius: 0 0 15px 15px;
 		overflow: hidden;
 }
 }
+
+
 
 @media (max-width: 1120px) {
     .saving_section .detail-box {
