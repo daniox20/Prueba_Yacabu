@@ -8,6 +8,11 @@
 		overflow: hidden;
 }
 }
+@media (min-width: 375px) and (max-width: 768px) {
+.slider_section_cervezas .img-box img {
+  width: 350px;
+}}
+
 
 @media (min-width: 375px) and (max-width: 768px) {
   
