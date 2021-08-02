@@ -4,6 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   color: #101010;
   background-color: #ffffff;
+	background-image: url("../images/bg_body.png")!important;
 }
 
 .layout_padding {
@@ -408,10 +409,11 @@ a:focus {
 }
 
 .shop_section .box {
-  background-color: #eeeeee;
+  background-color: #e5dacc;
   position: relative;
   padding: 10px;
   margin-top: 25px;
+	border-radius: 15px;
 }
 
 .shop_section .box a {
