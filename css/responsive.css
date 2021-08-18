@@ -27,7 +27,7 @@
 
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .img-box img {
-  width: 350px;
+  width: 360px;
 }}
 
 @media (max-width: 1120px) {
