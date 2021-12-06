@@ -19,7 +19,7 @@
 	.slider_section .slider_container {
   color: #fefefe;
   background-color: #c9a155;
-  background-image: url("../images/bg_hero_tablet.png");
+  background-image: url("../images/bg_hero_tablet_1.png");
   border-radius: 0 0 15px 15px;
 		overflow: hidden;
 }
@@ -27,8 +27,22 @@
 
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .img-box img {
+  width: 430px;
+}}
+
+@media (min-width: 375px) and (max-width: 768px) {
+.slider_conteiner .img-box img {
   width: 360px;
 }}
+
+@media (min-width: 375px) and (max-width: 768px) {
+.slider_section .detail-box p {
+  font-weight:600;
+  font-size: 2rem;
+  margin-bottom: 0px;
+	
+}}
+
 
 @media (max-width: 1120px) {
     .saving_section .detail-box {

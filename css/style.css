@@ -230,9 +230,11 @@ a:focus {
 
 /*end header section*/
 .slider_section .slider_container {
+	
   color: #fefefe;
   background-color: #c9a155;
-  background-image: url("../images/slider-bg-cervezas.jpg");
+  background-image: url("../images/bg_hero_tablet.png");
+	background-repeat: no-repeat;
   border-radius: 15px 15px 15px 15px;
 	margin: 0 3% 0 3%;
 }
@@ -260,7 +262,13 @@ a:focus {
 
 .slider_section .detail-box {
   padding-left: 45px;
-  margin: 45px 0;
+  margin: 0 0 45px 0;
+}
+
+.slider_section .detail-box p {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .slider_section .detail-box h1 {
@@ -271,7 +279,7 @@ a:focus {
 
 .slider_section .detail-box a {
     display: inline-block;
-    padding: 10px 40px;
+    padding: 8px 12px;
     background-color: #c9a155;
     color: #ffffff;
     border: 1px solid #c9a155;
