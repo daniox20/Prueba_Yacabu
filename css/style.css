@@ -229,11 +229,14 @@ a:focus {
 }
 
 /*end header section*/
+
+
+
 .slider_section .slider_container {
 	
   color: #fefefe;
   background-color: #c9a155;
-  background-image: url("../images/bg_hero_tablet.png");
+  background-image:url("../images/bg_hero.jpg");
 	background-repeat: no-repeat;
   border-radius: 15px 15px 15px 15px;
 	margin: 0 3% 0 3%;
@@ -438,7 +441,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 30px;
+  
   height: 245px;
 }
 
@@ -505,6 +508,142 @@ a:focus {
   background-color: transparent;
   color: #c9a155;
 }
+
+/* carrousel style*/
+
+
+
+/* jcarousel */
+.jcarousel-wrapper{
+	margin: 20px auto;
+	position: relative;
+}
+
+
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 130px;
+    text-align: center;
+    color: #8f8f8f;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font-size: 20px;
+}
+
+.jcarousel-control-prev {
+    left: 0px;
+    color:#333;
+    text-decoration: none;
+}
+
+.jcarousel-control-next {
+    right: 0px;
+    color:#333;
+    text-decoration: none;
+}
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover{
+    text-decoration: none;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+    color:#6a6a6a;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+
+.products-carousel{
+/* 	margin-left:-3.5714286%; */
+}
+.products-carousel,
+.products{
+	list-style-type: none;
+	.product{
+		list-style-type: none;
+		position: relative;
+		float:left;
+		width: 28.571429%;
+		margin:0 2.313% 30px;
+		.product-image{
+			text-align: center;
+			height: 200px;
+			vertical-align: middle;
+			line-height: 200px;
+			overflow: hidden;
+			position:relative;
+			img{
+				vertical-align: middle;
+				display: inline-block;
+			}	
+		}
+	}
+}
+.products-carousel{
+	margin:0;
+	.product{
+		width:200px;
+		margin:0 40px 0 0;
+	}
+	li:last-child{
+		margin-right:0;
+	}
+}
+
+
+@media (max-width: 949px){
+  .jcarousel.jcarousel-disabled{
+		margin-left:-3.125%;
+		margin-right:-3.125%;
+		height: auto;
+		width: auto;
+		ul.products-carousel{
+			width: auto;
+			position:static;
+			
+			li.product{
+				width: 42.8125%;
+				margin:0 3.125%;
+				min-height: 440px;
+
+			}
+		}
+
+	}
+}
+
+
 
 .saving_section {
   padding-left: 45px;
