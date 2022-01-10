@@ -233,11 +233,9 @@ a:focus {
 
 
 .slider_section .slider_container {
-	
   color: #fefefe;
   background-color: #c9a155;
-  background-image:url("../images/bg_hero.jpg");
-	background-repeat: no-repeat;
+  background-image: url("../images/slider-bg-cervezas.jpg");
   border-radius: 15px 15px 15px 15px;
 	margin: 0 3% 0 3%;
 }
