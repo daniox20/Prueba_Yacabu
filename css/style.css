@@ -26,7 +26,7 @@ body {
 }
 
 .layout_padding-top {
-  padding-top: 90px;
+  padding-top: 0px;
 }
 
 .layout_padding-bottom {
@@ -208,6 +208,52 @@ a:focus {
           transform: rotate(90deg);
   top: 0;
 }
+
+/* dropdown menu style*/
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #c9a155;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
 .user_option {
   display: -webkit-box;
@@ -445,7 +491,7 @@ a:focus {
 
 .shop_section .box .img-box img {
   
-  max-height: 165px;
+  max-height: 200px;
 }
 
 .shop_section .box .detail-box {
@@ -638,9 +684,6 @@ li:last-child{
 			}
 		}
 
-
-
-
 .saving_section {
   padding-left: 45px;
   padding-right: 45px;
@@ -650,12 +693,16 @@ li:last-child{
   background-color: #c9a155;
   color: #ffffff;
   border-radius: 15px;
+  max-height: 400px;
+  background-image: url(../images/slider-bg-cervezas.jpg);
 }
 
 .saving_section .row {
+  max-height: 400px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
+          
 }
 
 .saving_section .img-box {
@@ -668,6 +715,7 @@ li:last-child{
 
 .saving_section .detail-box {
   padding: 0 25px;
+  padding-bottom: 160px;
 }
 
 .saving_section .detail-box p {
