@@ -684,7 +684,7 @@ li:last-child{
   display: inline-block;
   padding: 10px 0;
   background-color: #109dbd;
-  color: #ffffff;
+  color: #c9a155;
   border: 1px solid #109dbd;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -699,9 +699,9 @@ li:last-child{
 .saving_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #ffffff;
+  background-color: #c9a155;
   color: #000000;
-  border: 1px solid #ffffff;
+  border: 1px solid #c9a155;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -709,7 +709,8 @@ li:last-child{
 }
 
 .saving_section .detail-box .btn-box .btn2:hover {
-  background-color: transparent;
+  background-color: #2a4a51;
+  border: 1px solid #2a4a51;
   color: #ffffff;
 }
 
