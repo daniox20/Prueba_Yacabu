@@ -33,7 +33,8 @@
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_conteiner .img-box img {
   width: 360px;
-}}
+}
+}
 
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .detail-box p {

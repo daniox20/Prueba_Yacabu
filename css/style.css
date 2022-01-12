@@ -241,7 +241,6 @@ a:focus {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin-top: 5px;
   border-radius: 5px;
   z-index: 1;
 }
@@ -289,10 +288,10 @@ a:focus {
 
 .slider_section .slider_container {
   color: #fefefe;
-  background-color: #c9a155;
+  background-color: transparent;
   background-image: url("../images/slider-bg-cervezas.jpg");
   border-radius: 15px 15px 15px 15px;
-	margin: 0 3% 0 3%;
+	margin: 0 3% 2% 3%;
 }
 
 .slider_section .row {
@@ -323,14 +322,14 @@ a:focus {
 
 .slider_section .detail-box p {
   font-weight: bold;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3.5rem;
+  
 }
 
-.slider_section .detail-box h1 {
+.slider_section .detail-box br {
   font-weight: bold;
   font-size: 3.5rem;
-  margin-bottom: 10px;
+  
 }
 
 .slider_section .detail-box a {
@@ -381,76 +380,7 @@ a:focus {
   font-size: 14px;
 }
 
-.slider_section_cervezas .slider_container_cervezas {
-  color: #fefefe;
-  background-color: #c9a155;
-  background-image: url("../images/slider-bg-cervezas.jpg");
-  border-radius: 15px 15px 15px 15px;
-	margin: 0 3% 0 3%;
-}
 
-.slider_section_cervezas .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slider_section_cervezas .img-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 45px;
-}
-
-.slider_section_cervezas .img-box img {
-  width: 750px;
-}
-
-.slider_section_cervezas .detail-box {
-  padding-left: 25px;
-  margin: 45px 0;
-}
-
-.slider_section_cervezas .detail-box h1 {
-  font-weight: bold;
-  font-size: 3.5rem;
-  margin-bottom: 10px;
-}
-
-.slider_section_cervezas .detail-box a {
-    display: inline-block;
-    padding: 10px 40px;
-    background-color: #c9a155;
-    color: #ffffff;
-    border: 1px solid #c9a155;
-    border-radius: 5px;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-    margin-top: 25px;
-	text-transform: uppercase;}
-
-.slider_section_cervezas .detail-box a:hover {
-  background-color: #2a4a51;
-  color: #c9a155;
-}
-
-.slider_section_cervezas .carousel_btn-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  bottom: 0px;
-  left: 5%;
-  padding: 7px 10px;
-  border-radius: 5px 5px 0 0;
-}
 
 .slider_section .carousel_btn-box img {
   margin: 0 10px;
@@ -500,8 +430,10 @@ a:focus {
 
 .shop_section .box .img-box img {
   
-  max-height: 200px;
+  max-height: 150px;
 }
+
+
 
 .shop_section .box .detail-box {
   display: -webkit-box;
@@ -558,8 +490,9 @@ a:focus {
 }
 
 .shop_section .btn-box a:hover {
-  background-color: transparent;
-  color: #c9a155;
+  background-color: #c9a155;
+  color: white;
+  
 }
 
 /* carrousel style*/
@@ -699,7 +632,7 @@ li:last-child{
 }
 
 .saving_section .box {
-  background-color: #c9a155;
+  background-color: transparent;
   color: #ffffff;
   border-radius: 15px;
   max-height: 400px;
