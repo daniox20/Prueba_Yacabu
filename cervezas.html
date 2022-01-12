@@ -54,11 +54,17 @@
     <div class="collapse navbar-collapse" style="box-shadow: 0px 0px 20px rgba(0,0,0,0.5); " id="navbarSupportedContent">
         <ul class="navbar-nav  ">
           <li class="nav-item "> <a class="nav-link" href="index.html">Inicio </a> </li>
-          <li class="nav-item"> <a class="nav-link" href="sin_alcohol.html"> Sin Alcohol</a> </li>
           <li class="nav-item active"> <a class="nav-link" href="cervezas.html"> Cervezas<span class="sr-only">(current)</span> </a> </li>
           <li class="nav-item"> <a class="nav-link" href="whisky.html"> Whisky </a> </li>
           <li class="nav-item"> <a class="nav-link" href="espirituosas.html">Espirituosas</a> </li>
           <li class="nav-item"> <a class="nav-link" href="vinos.html">Vinos</a> </li>
+          <div class="dropdown">
+            <button class="dropbtn">OTROS ↓</button>
+            <div class="dropdown-content">
+              <a href="sin_alcohol.html">Sin Alcohol</a>
+              <a href="aceitunas_aceites.html">Aceites y Aceitunas</a>
+            </div>
+          </div>
           <li class="nav-item"> <a class="nav-link" href="quienes_somos.html">¿Quienes somos?</a> </li>
           <li class="nav-item"> <a class="nav-link" href="contacto.html">Contacto</a> </li>
         </ul>
@@ -69,84 +75,38 @@
   <!-- end header section --> 
 
   
-  <!-- slider section 
-  
-  <section class="slider_section_cervezas w3-animate-bottom">
-    <div class="slider_container_cervezas">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid">
-              <div class="row">
-				  <div class="col-md-4 col-sm-8">
-					  
-                   <div class="detail-box">
-                  <h1 style="color: #c9a155; font-size: 75px;">
-                    <p>OFERTA<br>
-                      <span style="color: #2a4a51; font-size: 75px;">DEL MES</span></p>
-                  </h1>
-                  <a href="contacto.html"> <b>Contactanos</b> </a> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/slider-img-promo-2.png" alt="hero_1" /> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/cervezas_zillertal.png" style="width:100%;" alt="hero_offer" /> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container-fluid">
-              <div class="row">
-				  <div class="col-md-4 col-sm-8">
-					  
-                   <div class="detail-box">
-                  <h1 style="color: #c9a155; font-size: 75px;">
-                    <p>OFERTA<br>
-                      <span style="color: #2a4a51; font-size: 75px;">DEL MES</span></p>
-                  </h1>
-                  <a href="contacto.html"> <b>Contactanos</b> </a> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/slider-img-promo-3.png" alt="hero_1" /> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/slider-img-promo-super.png" style="width: 100%;" alt="hero_offer" /> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <div class="container-fluid">
-              <div class="row">
-				  <div class="col-md-4 col-sm-8">
-					  
-                   <div class="detail-box">
-                  <h1 style="color: #c9a155">
-                    <p>OFERTA DEL MES<br>
-                      <span style="color: #2a4a51">Cervezas Zillertal</span></p>
-                  </h1>
-                  <a href="contacto.html"> <b>Contactanos</b> </a> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/slider-img-promo-2.png" alt="hero_1" /> </div>
-                </div>
-                <div class="col-md-4 col-sm-2">
-                  <div class="img-box"> <img src="images/cervezas_zillertal.png" style="width: 100%;" alt="hero_offer" /> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel_btn-box"> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <i class="fa fa-arrow-left" aria-hidden="true"></i> <span class="sr-only">Previous</span> </a> <img src="images/line.png" alt="" /> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <i class="fa fa-arrow-right" aria-hidden="true"></i> <span class="sr-only">Next</span> </a> </div>
-      </div>
-    </div>
-  </section>
-  
-    end slider section --> 
+   
 
 <!-- end hero area --> 
+
+<!-- saving section -->
+
+<section class="saving_section" data-aos="flip-up">
+  <div class="box">
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-lg-6" style="padding:0px;">
+          <div class="img-box" style="padding:0px;"> <img src="images/cervezas/banner_promos/banner-01-01.png" alt="cervezas"  > </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="detail-box">
+            <div class="heading_container" style="padding:15px;">
+              <h2 style="color: #fff;">
+                <p>Las mejores cervezas<br>
+                  <span style="color: #2a4a51">Nacionales e Importados</span></p>
+              </h2>
+            </div>
+            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+</section>
+
+<!-- end saving section --> 
 
 <!-- shop section -->
 
@@ -215,6 +175,7 @@
       </div>
     </div>
 	  </div>
+    
 	  <br>
 	  <div class="heading_container heading_center">
       <h2> Cervezas Nacionales y Argentinas en Lata </h2>
@@ -625,9 +586,51 @@
     </div>
 		  
 	  </div>
+    <br>
+    <div class="heading_container heading_center">
+      <h2> Cervezas En Botella Grande (Descartables) </h2>
+    </div>
+	  <div class="col-xs-12 col-sm-12 col-lg-12">
+    <div class="row">
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="box"> <a href="">
+          <div class="img-box"> <img src="images/cervezas/patagonia/p1.png" alt=""> </div>
+          <div class="detail-box">
+            <h6> <strong>Patagonia Amber Lager</strong> 730ml </h6>
+            <h6> Precio <br>
+              <span> <strong>$U69</strong> </span> </h6>
+          </div>
+          
+          </a> </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="box"> <a href="">
+          <div class="img-box"> <img src="images/cervezas/patagonia/p2.png" alt=""> </div>
+          <div class="detail-box">
+            <h6> <strong>Patagonia IPA 24/7</strong> 730ml
+            </h6>
+            <h6> Precio <br><span> <strong>$U53</strong> </span> </h6>
+          </div>
+          
+          </a> </div>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="box"> <a href="">
+          <div class="img-box"> <img src="images/cervezas/patagonia/p3.png" alt=""> </div>
+          <div class="detail-box">
+            <h6> <strong>Patagonia HOPPY LAGER</strong> 730ml
+            </h6>
+            <h6> Precio <br><span> <strong>$U53</strong> </span> </h6>
+          </div>
+          
+          </a> </div>
+      </div>
+
+    </div>
+	  </div>
 	  <br>
 	  <div class="heading_container heading_center">
-      <h2> Cervezas en Botella </h2>
+      <h2> Cervezas en Botella Chica </h2>
     </div>
 	  <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="row">
@@ -854,99 +857,6 @@
 </section>
 
 <!-- end shop section --> 
-
-<!-- saving section ->
-
-<section class="saving_section" data-aos="flip-up">
-  <div class="box">
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-lg-6" style="padding:0px;">
-          <div class="img-box" style="padding:0px;"> <img src="images/cervezas_section_img.png" alt="cervezas"  > </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="detail-box">
-            <div class="heading_container" style="padding:15px;">
-              <h2 style="color: #fff; font-size: 3.5em;">
-                      <p>Las mejores cervezas<br>
-                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
-                    </h2>
-				
-            </div>
-            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-	<br>
-	<br>
-</section>
-
-
-<!--
-<section class="saving_section" data-aos="flip-up">
-  <div class="box">
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-lg-6">
-			<div class="detail-box">
-            <div class="heading_container" style="padding:15px;">
-              <h2 style="color: #fff; font-size: 3.5em;">
-                      <p>Selección en Whisky<br>
-                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
-                    </h2>
-				
-            </div>
-            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
-            
-          </div>
-          
-        </div>
-        <div class="col-lg-6" style="padding:0px;">
-          <div class="img-box" style="padding:0px;"> <img src="images/cervezas_section_img.png" alt="cervezas"  > </div>
-        </div>
-      </div>
-    </div>
-  </div>
-	<br>
-	<br>
-</section>
-
-
-	<section class="saving_section" data-aos="flip-up">
-  <div class="box">
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-lg-6" style="padding:0px;">
-          <div class="img-box" style="padding:0px;"> <img src="images/cervezas_section_img.png" alt="cervezas"  > </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="detail-box">
-            <div class="heading_container" style="padding:15px;">
-              <h2 style="color: #fff; font-size: 3.5em;">
-                      <p>Las mejores cervezas<br>
-                        <span style="color: #2a4a51">Nacionales e Importados</span></p>
-                    </h2>
-				
-            </div>
-            <div class="btn-box"> <a href="#" class="btn2"> Ver Más </a> </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-	<br>
-	<br>
-</section>
-
-<!-- end saving section -->
-
-
-
-
 
 <!-- contact section -->
 
