@@ -38,9 +38,9 @@
 
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .detail-box p {
-  font-weight:600;
-  font-size: 2rem;
-  margin-bottom: 0px;
+  font-weight:700;
+  font-size: 3.5rem;
+  margin-top: 25px;
 	
 }}
 
@@ -91,7 +91,7 @@
     }
 
     .slider_section .detail-box {
-        padding-left: 0;
+        padding-left: 15px;
     }
 
     .slider_section .detail-box h1 {
