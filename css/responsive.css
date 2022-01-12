@@ -51,6 +51,24 @@
 
 }
 
+@media (max-width: 1120px) {
+    .saving_section .box {
+        max-height: 750px;
+    }
+    .saving_section .row {
+        max-height: 750px;
+    }
+
+    .saving_section .detail-box p {
+        font-size: 2.5rem;
+    }
+    .layout_padding {
+        padding-top: 0px;
+        padding-bottom: 90px;
+    }
+
+}
+
 @media (max-width: 992px) {
     .user_option {
         justify-content: center;
@@ -81,10 +99,6 @@
 
     .slider_section .img-box {
         padding: 0;
-    }
-
-    .saving_section .row {
-        flex-direction: column-reverse;
     }
 
     .saving_section .detail-box {
