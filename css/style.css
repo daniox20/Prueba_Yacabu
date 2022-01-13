@@ -307,7 +307,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 45px;
+  padding: 30px 0px;
 }
 
 .slider_section .img-box img {

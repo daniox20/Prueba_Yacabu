@@ -27,7 +27,7 @@
 
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .img-box img {
-  width: 430px;
+  width: 350px;
 }}
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -69,6 +69,12 @@
     }
 
 }
+@media (max-width: 1366px) {
+.saving_section .box {
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 15px;
+    max-height: 300px;}}
 
 @media (max-width: 992px) {
     .user_option {
@@ -106,6 +112,12 @@
 
         margin-bottom: 30px;
     }
+
+    .saving_section .box {
+        background-color: transparent;
+        color: #ffffff;
+        border-radius: 15px;
+        max-height: 300px;}
 
     .client_section .box {
         margin: 15px 25px;
