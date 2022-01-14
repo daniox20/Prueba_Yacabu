@@ -289,7 +289,7 @@ a:focus {
 .slider_section .slider_container {
   color: #fefefe;
   background-color: transparent;
-  background-image: url("../images/slider-bg-cervezas.jpg");
+  background-image: url("../images/bg_hero.jpg");
   border-radius: 15px 15px 15px 15px;
 	margin: 0 3% 2% 3%;
 }
@@ -308,10 +308,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 30px 0px;
-}
 
-.slider_section .img-box img {
-  width: 750px;
 }
 
 
@@ -636,7 +633,7 @@ li:last-child{
   color: #ffffff;
   border-radius: 15px;
   max-height: 400px;
-  background-image: url(../images/slider-bg-cervezas.jpg);
+  background-image: url(../images/bg_hero.jpg);
 }
 
 .saving_section .row {

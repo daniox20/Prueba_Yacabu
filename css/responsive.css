@@ -25,9 +25,55 @@
 }
 }
 
+
+
+@media (min-width: 768px) and (max-width: 1367px) {
+        .slider_section .img-box .img-banner-2{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+                    width: 115%;
+            
+        }}
+
+@media (min-width: 768px) and (max-width: 1367px) {
+            .slider_section .img-box .img-banner-3{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                        width: 100%;
+                
+            }}
+
+
+            @media (min-width: 1367px) and (max-width: 1921px) {
+                .slider_section .img-box .img-banner-3{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
+                            width: 80%;
+                    
+                }}
+
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .img-box img {
-  width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            width: 100%;
+    
 }}
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -39,7 +85,7 @@
 @media (min-width: 375px) and (max-width: 768px) {
 .slider_section .detail-box p {
   font-weight:700;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-top: 25px;
 	
 }}
@@ -117,7 +163,7 @@
         background-color: transparent;
         color: #ffffff;
         border-radius: 15px;
-        max-height: 300px;}
+        max-height: 530px;}
 
     .client_section .box {
         margin: 15px 25px;
