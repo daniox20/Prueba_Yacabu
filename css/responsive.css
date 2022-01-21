@@ -1,21 +1,5 @@
 @media (min-width: 375px) and (max-width: 768px) {
   
-	.slider_section_cervezas .slider_container_cervezas {
-  color: #fefefe;
-  background-color: #c9a155;
-  background-image: url("../images/bg_hero_tablet.png");
-  border-radius: 0 0 15px 15px;
-		overflow: hidden;
-}
-}
-@media (min-width: 375px) and (max-width: 768px) {
-.slider_section_cervezas .img-box img {
-  width: 350px;
-}}
-
-
-@media (min-width: 375px) and (max-width: 768px) {
-  
 	.slider_section .slider_container {
   color: #fefefe;
   background-color: #c9a155;
@@ -38,7 +22,8 @@
 }
 .slider_section .detail-box p {
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding:25px 0px 10px 0px;
     
   }
 }
@@ -115,6 +100,7 @@
 
 }
 
+
 @media (max-width: 1120px) {
     .saving_section .box {
         max-height: 750px;
@@ -180,7 +166,7 @@
         background-color: transparent;
         color: #ffffff;
         border-radius: 15px;
-        max-height: 530px;}
+        max-height: 900px;}
 
     .client_section .box {
         margin: 15px 25px;

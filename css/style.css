@@ -633,7 +633,7 @@ li:last-child{
   color: #ffffff;
   border-radius: 15px;
   max-height: 400px;
-  background-image: url(../images/bg_hero.jpg);
+  background-image: url(../images/bg_hero_tablet_1.png);
 }
 
 .saving_section .row {
@@ -655,6 +655,7 @@ li:last-child{
 .saving_section .detail-box {
   padding: 0 25px;
   padding-bottom: 160px;
+  justify-content: center;
 }
 
 .saving_section .detail-box p {
