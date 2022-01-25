@@ -71,7 +71,7 @@ body {
 
 #navbarSupportedContent {
  margin: auto;
-  width: 80%;
+  width: 930px;
   background-color: #2a4a51;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -94,7 +94,7 @@ body {
 }
 
 #navbarSupportedContent .navbar-nav .nav-link {
-  padding: 5px 25px;
+  padding: 10px 8px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
