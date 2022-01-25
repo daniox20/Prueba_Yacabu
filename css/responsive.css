@@ -28,7 +28,7 @@
   }
 }
         
-@media (min-width: 768px) and (max-width: 1367px) {
+@media (min-width: 320px) and (max-width: 1367px) {
             .slider_section .img-box .img-banner-3{
                 display: -webkit-box;
                 display: -ms-flexbox;
@@ -103,7 +103,7 @@
     }
 .slider_section .detail-box p {
   font-weight:700;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-top: 25px;
 	
 }
