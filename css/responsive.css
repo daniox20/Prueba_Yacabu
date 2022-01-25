@@ -1,8 +1,7 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   
 	.slider_section .slider_container {
   color: #fefefe;
-  background-color: #c9a155;
   background-image: url(../images/bg_hero_tablet_1.png)!important;
   border-radius: 0 0 15px 15px;
 		overflow: hidden;
@@ -12,6 +11,7 @@
     max-height: 130px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 1367px) {
 .slider_section .slider_container {
     color: #fefefe;
@@ -90,7 +90,7 @@
                 }}
 
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .slider_section .img-box img {
         display: -webkit-box;
         display: -ms-flexbox;
