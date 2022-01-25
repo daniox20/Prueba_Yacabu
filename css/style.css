@@ -406,7 +406,7 @@ a:focus {
 
 .shop_section .box .img-box img {
   
-  max-height: 180px;
+  max-height: 170px;
 }
 
 .slider_section .img-box .img-banner-2{
@@ -634,12 +634,12 @@ li:last-child{
   background-color: transparent;
   color: #ffffff;
   border-radius: 15px;
-  max-height: 400px;
+  max-height: 470px;
   background-image: url(../images/bg_hero_tablet_1.png);
 }
 
 .saving_section .row {
-  max-height: 400px;
+  max-height: 470px;
   -webkit-box-align: center;
   -ms-flex-align: center;
    align-items: center;
