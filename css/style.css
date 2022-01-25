@@ -401,7 +401,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   
-  height: 245px;
+  height: 150px;
 }
 
 .shop_section .box .img-box img {
@@ -472,7 +472,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: space-around;
-          font-size: 20px;
+          font-size: 18px;
 }
 
 .shop_section .box .detail-box-1 h6 span {
