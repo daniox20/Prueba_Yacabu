@@ -1,7 +1,7 @@
 @media (max-width: 400px) {
 .shop_section .box .img-box img {
   
-    max-height: 130px;
+    max-height: 120px;
   }}
 
 @media (min-width: 320px) and (max-width: 768px) {
