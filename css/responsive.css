@@ -163,23 +163,6 @@
         border-radius: 15px;
         max-height: 900px;}
 
-    .client_section .box {
-        margin: 15px 25px;
-    }
-
-    .client_section .carousel_btn-box {
-        display: flex;
-        justify-content: center;
-        margin-top: 45px;
-    }
-
-    .client_section .carousel-control-prev,
-    .client_section .carousel-control-next {
-        position: unset;
-        margin: 0 2.5px;
-        width: 45px;
-        height: 45px;
-    }
 }
 
 @media (max-width: 768px) {
