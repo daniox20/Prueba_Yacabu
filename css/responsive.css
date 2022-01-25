@@ -1,3 +1,9 @@
+@media (max-width: 400px) {
+.shop_section .box .img-box img {
+  
+    max-height: 130px;
+  }}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .slider_section .slider_container {
         color: #fefefe;
@@ -6,6 +12,7 @@
         border-radius: 15px 15px 15px 15px;
         margin: 0 3% 2% 3%;
     }
+    
     }
 @media (min-width: 1366px) and (max-width: 1920px) {
     .slider_section .slider_container {
@@ -21,7 +28,7 @@
 .slider_section .slider_container {
     color: #fefefe;
     background-color: transparent;
-    background-image: url(../images/bg_hero_tablet_1.png)!important;
+    background-image: url(../images/bg_hero.jpg)!important;
     border-radius: 15px 15px 15px 15px;
     margin: 0 3% 2% 3%;
 }
@@ -96,6 +103,7 @@
 
 
 @media (min-width: 320px) and (max-width: 768px) {
+    
     .slider_section .img-box img {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -118,9 +126,10 @@
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 1920px) {
     .saving_section .detail-box {
         padding: 0;
+        margin-bottom: 150px;
     }
 
 }
