@@ -221,7 +221,7 @@ a:focus {
   font-weight: 600;
   background-color: #294a51;
   color: white;
-  padding: 5px 20px;
+  padding: 10px 20px;
   font-size: 15px;
   border: none;
   border-radius: 5px;
@@ -261,26 +261,6 @@ a:focus {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #2e616d;}
-
-
-.user_option {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 25px;
-}
-
-.user_option a {
-  margin-right: 25px;
-  color: #000000;
-}
-
-.user_option a span {
-  margin-left: 5px;
-}
 
 /*end header section*/
 
@@ -428,6 +408,29 @@ a:focus {
   
   max-height: 180px;
 }
+
+.slider_section .img-box .img-banner-2{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          width: 100%;
+  
+}
+
+.slider_section .img-box .img-banner-3{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          width: 100%;
+  
+}
+
 
 
 
