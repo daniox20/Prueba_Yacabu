@@ -132,8 +132,15 @@
 }
 
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) and (max-width: 2500px) {
+    .slider_section .detail-box p {
+        font-weight:700;
+        
+        margin-top: 25px;
+          
+      }
     .saving_section .detail-box {
+        font-size: 5rem;
         padding: 0;
         margin-bottom: 100px;
     }
@@ -141,7 +148,7 @@
 }
 
 
-@media (max-width: 1120px) {
+@media (max-width: 1300px) {
     .saving_section .box {
         max-height: 750px;
     }

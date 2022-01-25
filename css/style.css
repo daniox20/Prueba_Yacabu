@@ -477,7 +477,7 @@ a:focus {
 
 .shop_section .box .detail-box-1 h6 span {
   color: #294a51;
-  font-size:18px;
+  font-size:22px;
   
 }
 
@@ -694,7 +694,7 @@ li:last-child{
 }
 
 .saving_section .detail-box p {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 5px;
 }
 
@@ -705,6 +705,8 @@ li:last-child{
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0px -5px 0;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .saving_section .detail-box .btn-box a {
