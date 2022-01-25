@@ -1,22 +1,18 @@
-@media (min-width: 320px) and (max-width: 768px) {
-  
-	.slider_section .slider_container {
-  color: #fefefe;
-  background-image: url(../images/bg_hero_tablet_1.png)!important;
-  border-radius: 0 0 15px 15px;
-		overflow: hidden;
-}
-.shop_section .box .img-box img {
-  
-    max-height: 130px;
-  }
-}
+@media (min-width: 1365px) and (max-width: 1920px) {
+    .slider_section .slider_container {
+        color: #fefefe;
+        background-color: transparent;
+        background-image: url("../images/bg_hero.jpg")!important;
+        border-radius: 15px 15px 15px 15px;
+        margin: 0 3% 2% 3%;
+    }
+    }
 
-@media (min-width: 768px) and (max-width: 1367px) {
+@media (min-width: 768px) and (max-width: 1366px) {
 .slider_section .slider_container {
     color: #fefefe;
     background-color: transparent;
-    background-image: url(../images/bg_hero_1.jpg)!important;
+    background-image: url(../images/bg_hero_tablet_1.png)!important;
     border-radius: 15px 15px 15px 15px;
     margin: 0 3% 2% 3%;
 }
@@ -28,7 +24,7 @@
   }
 }
         
-@media (min-width: 320px) and (max-width: 1367px) {
+@media (min-width: 320px) and (max-width: 1366px) {
             .slider_section .img-box .img-banner-3{
                 display: -webkit-box;
                 display: -ms-flexbox;
@@ -77,7 +73,7 @@
 
 
 
-            @media (min-width: 1367px) and (max-width: 1920px) {
+            @media (min-width: 1366px) and (max-width: 1920px) {
                 .slider_section .img-box .img-banner-3{
                     display: -webkit-box;
                     display: -ms-flexbox;
