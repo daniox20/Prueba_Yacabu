@@ -442,6 +442,7 @@ a:focus {
       -ms-flex-pack: justify;
           justify-content: space-around;
           margin: 25px 0px;
+          height: 75px;
 }
 
 .shop_section .box .detail-box-1 {
