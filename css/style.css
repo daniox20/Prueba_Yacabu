@@ -7,6 +7,23 @@ body {
 	background-image: url("../images/bg_body.png")!important;
 }
 
+@supports (-webkit-text-size-adjust:none) and (not (-ms-ime-align:auto))
+and (not (-moz-appearance:none))
+{
+
+  
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) 
+  { 
+ 
+
+} 
+
+}
+
 .layout_padding {
   padding-top: 0px;
   padding-bottom: 90px;
@@ -45,6 +62,7 @@ body {
 
 .heading_container h2 {
   font-weight: bold;
+  color: #c9a155;
 }
 
 .heading_container h2 span {
@@ -375,7 +393,13 @@ a:focus {
 }
 
 .shop_section .heading_container {
+  margin: auto;
+  align-content: center;
   margin-bottom: 20px;
+    background-color: #294a51;
+    border-radius: 55px;
+    width: 50%;
+    margin-top: 40px;
 }
 
 .shop_section .box {
@@ -841,8 +865,12 @@ li:last-child{
 }
 
 .us_section .heading_container {
+  margin: auto;
+  align-content: center;
+  text-align: center;
 	width: 100%;
   margin-bottom: 30px;
+ 
 }
 
 .us_section .row {
