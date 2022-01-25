@@ -3,7 +3,7 @@
 	.slider_section .slider_container {
   color: #fefefe;
   background-color: #c9a155;
-  background-image: url("../images/bg_hero_tablet_1.png");
+  background-image: url(../images/bg_hero_tablet_1.png)!important;
   border-radius: 0 0 15px 15px;
 		overflow: hidden;
 }
@@ -16,7 +16,7 @@
 .slider_section .slider_container {
     color: #fefefe;
     background-color: transparent;
-    background-image: url(../images/bg_hero_1.jpg);
+    background-image: url(../images/bg_hero_1.jpg)!important;
     border-radius: 15px 15px 15px 15px;
     margin: 0 3% 2% 3%;
 }
@@ -64,31 +64,28 @@
                     
                 }}
 
-@media (min-width: 375px) and (max-width: 768px) {
-.slider_section .img-box img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-            width: 100%;
-    
-}}
 
 @media (min-width: 375px) and (max-width: 768px) {
-.slider_conteiner .img-box img {
-  width: 360px;
-}
-}
-
-@media (min-width: 375px) and (max-width: 768px) {
+    .slider_section .img-box img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+                width: 100%;
+        
+    }
 .slider_section .detail-box p {
   font-weight:700;
   font-size: 3rem;
   margin-top: 25px;
 	
-}}
+}
+.slider_conteiner .img-box img {
+    width: 360px;
+  }
+}
 
 
 @media (max-width: 1120px) {

@@ -284,12 +284,11 @@ a:focus {
 
 /*end header section*/
 
-
-
+/*slider section*/
 .slider_section .slider_container {
   color: #fefefe;
   background-color: transparent;
-  background-image: url("../images/bg_hero.jpg");
+  background-image: url("../images/bg_hero.jpg") !important;
   border-radius: 15px 15px 15px 15px;
 	margin: 0 3% 2% 3%;
 }
