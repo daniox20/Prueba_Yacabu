@@ -575,33 +575,42 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-5 px-0">
-        <form action="#">
-          <div>
-            <input type="text" placeholder="Name" />
-          </div>
-          <div>
-            <input type="email" placeholder="Email" />
-          </div>
-          <div>
-            <input type="text" placeholder="Phone" />
-          </div>
-          <div>
-            <input type="text" class="message-box" placeholder="Message" />
-          </div>
-          <div class="d-flex ">
-            <button> ENVIAR </button>
-          </div>
+        <form id="form" action="" class="form">
+          <input name="name" required type="text" id="name" placeholder="Nombre Completo">
+          <input name="email" type="email" id="email" required placeholder="Correo electrónico">
+          <input name="phone" type="text" id="phone" required placeholder="Teléfono o Celular">
+          <textarea name="message" type="message" id="message" cols="53" rows="5" placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn primary full">Enviar Mensaje</button>
         </form>
+        <a href="mailto:daniox20@gmail.com" id="trucazo"></a>
       </div>
     </div>
   </div>
-	<br>
-	<br>
-	<br>
-	<br>
+  <br>
+  <br>
+  <br>
+  <br>
 </section>
 
 <!-- end contact section --> 
+
+<!-- start contact section sript  -->
+
+<script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#trucazo')
+
+    $form.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      $buttonMailto.setAttribute('href', `mailto:daniox20@gmail.com?subject=Nombre: ${form.get('name')}  Correo: ${form.get('email')} Teléfono/cel: ${form.get('phone')} &body= ${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>
+
+ <!--end contact section script --> 
 
 
 
@@ -611,7 +620,7 @@
   <div class="social_container">
 	  <div class="social-title"><h1>VISITÁ NUESTRAS REDES</h1></div>
     <div class="social_box">
-		<a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a>  <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </div>
+		<a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a>  <a href="https://www.instagram.com/lacriolla_uyy/"> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </div>
   </div>
   <div class="info_container ">
     <div class="container">
